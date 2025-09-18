@@ -1,9 +1,14 @@
+import Datepicker from './components/Datepicker.jsx'
+
 export default function App() {
   return (
-    <div style={{ padding: 24 }}>
-      <h1>Vite + React</h1>
-      <p>Project initialized successfully.</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="text-center space-y-6">
+        <h1 className="text-4xl font-bold text-indigo-600">Hello KBTG</h1>
+        <div className="flex justify-center">
+          <Datepicker />
+        </div>
+      </div>
     </div>
   )
 }
-
